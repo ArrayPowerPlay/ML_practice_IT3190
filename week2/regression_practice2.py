@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # load data
-df = pd.read_csv('homework/week2/elantra.csv')
+df = pd.read_csv('week2/elantra.csv')
 print(df.tail(10))
 print()
 print("Data dimension:")
@@ -17,7 +17,6 @@ plt.figure(figsize=(9, 6))
 plt.plot(df['ElantraSales'].values)
 plt.xlabel('Time Index')
 plt.ylabel('Sales')
-# plt.show()
 
 # create features for our model
 print()
@@ -73,8 +72,7 @@ plt.plot(y_pred, label='Predicted values', color='red')
 plt.xlabel('Index')
 plt.ylabel('Values')
 plt.legend()
-# plt.savefig('homework/week2/compare_before.png')
-# plt.show()
+plt.savefig('week2/compare_before.png')
 
 # use non numeric feature for our model using one-hot encoding 
 # (here we only use month feature)
@@ -108,5 +106,5 @@ plt.plot(y_pred, label='Predicted values', color='red')
 plt.xlabel('Index')
 plt.ylabel('Values')
 plt.legend()
-plt.savefig('homework/week2/compare_after.png')
+plt.savefig('week2/compare_after.png')
 plt.show()

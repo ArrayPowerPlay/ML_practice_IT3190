@@ -114,7 +114,7 @@ plt.figure(figsize=(8, 6))
 sns.histplot(df_pred['Predicted'], kde=True, color='skyblue')
 plt.xlabel('Giá trị dự đoán')
 plt.ylabel('Tần suất')
-plt.savefig('homework/density_prediction.png')
+plt.savefig('week2/density_prediction.png')
 plt.show()
 
 

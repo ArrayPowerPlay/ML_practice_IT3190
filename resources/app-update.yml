@@ -1,0 +1,7 @@
+provider: generic
+url: https://public-cdn.cloud.unity3d.com/hub/prod
+updaterCacheDirName: unityhub-updater
+publisherName:
+  - Unity Technologies Aps
+  - Unity Technologies ApS
+  - Unity Technologies SF
